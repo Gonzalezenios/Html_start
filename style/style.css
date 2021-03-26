@@ -1,0 +1,28 @@
+ body {
+
+    font-family: 'Kumbh Sans', sans-serif;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container{
+    background: white;
+    height: 500px;
+    width: 1200px;
+    border-radius: 25px;
+    padding: 20px 50px 60px;
+    margin: 40px 30px 70px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.faq {
+    font-size:700;
+    text-align: center;
+}
